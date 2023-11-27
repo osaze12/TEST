@@ -1,0 +1,34 @@
+@font-face {
+  font-family: CircularStd-Bold;
+  src: url("./assets/fonts/CircularStd-Bold.ttf");
+}
+
+@font-face {
+  font-family: CircularStd-Medium;
+  src: url("./assets/fonts/CircularStd-Medium.ttf");
+}
+@font-face {
+  font-family: CircularStd-Black;
+  src: url("./assets/fonts/CircularStd-Black.ttf");
+}
+@font-face {
+  font-family: CircularStd-regular;
+  src: url("./assets/fonts/CircularStd-Book.ttf");
+}
+
+:root {
+  font-family: CircularStd-regular, CircularStd-Bold, CircularStd-Medium,
+    CircularStd-Black, Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  display: flex;
+  place-items: center;
+}
