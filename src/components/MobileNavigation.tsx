@@ -16,6 +16,7 @@ export default function MobileNavigation() {
       flexDir={"column"}
       pos={"fixed"}
       zIndex={999}
+      backdropFilter="blur(50px)"
       bottom={0}
       bg="#fff"
       right={0}

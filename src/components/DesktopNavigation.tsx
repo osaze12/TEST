@@ -24,6 +24,7 @@ export default function DesktopNavigation() {
         left="0"
         p="20px"
         borderRight={"1px solid #eeeeee"}
+        backdropFilter="blur(50px)"
       >
         <Flex flexDir={"column"} gap="40px">
           {_DESKTOP_NAV.map(({ id, title, to, icon: Icon }) => (

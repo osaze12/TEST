@@ -34,17 +34,17 @@ export default function Budget() {
       </Flex>
 
       <Box
-        borderRadius={"15px"}
+        borderRadius={"10px"}
         boxShadow={"0px 5px 10px 2px rgba(0, 0, 0, 0.03)"}
         w="100%"
         my="20px"
+        p="10px"
+        bg="#fff"
       >
         <Text
-          bg="#fff"
-          fontSize={"1.5em"}
+          fontSize={"1.8em"}
           color="#001233"
-          fontFamily={"CircularStd-Bold"}
-          p="10px"
+          fontFamily={"CircularStd-Black"}
         >
           ₦120,000
         </Text>
